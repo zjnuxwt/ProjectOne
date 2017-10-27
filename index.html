@@ -1,23 +1,31 @@
 <html>
 <head>
 	<style>
-		.alsp{ font-family:"Courier New";font-size:100px}
+		.alsp{ font-family:"Courier New";font-size:50px}
 	</style>
+	<div style="color:#ffffff";>
+		<div id="time1">
+		</div>
+		<script>            	
+			setInterval("document.getElementById('time1').innerHTML = new Date().toLocaleString();", 1000);		
+		</script>
+	</div>
 </head>
 <body>
 	<div class="alsp">				
-		<div align="center" style="color:#ffffff; font-weight:bold;">test test</div>
+		<div align="center" style="color:#ffffff; font-weight:bold;">xuwentao's test web</div>
 	</div>
-	<body style="background-image:url(img/timg.jpg);background-repeat:no-repeat;background-size:100%;background-attachment: fixed;">
-	
-	<table border=30 bordercolor="white" cellpadding="10" cellspacing="10"  >
+	<body style="background-image:url(img/blackrose.jpg);background-repeat:no-repeat;background-size:100%;background-attachment: fixed;">
+	<marquee direction="left" behavior="alternate">
+	<table border=5 bordercolor="white" cellpadding="2" cellspacing="2">
 		<tr>
-			<td width="300" height="150"><div align="center" style="color:#ffffff; font-weight:bold;font-size:60px;">name</div></td>
-			<td width="300" height="150"><div align="center" style="color:#ffffff; font-weight:bold;font-size:60px;">许文滔</div></td>
+			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">name</div></td>
+			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">许文滔</div></td>
 		<tr>
 		<tr>
-			<td width="300" height="150"><div align="center" style="color:#ffffff; font-weight:bold;font-size:60px;">student num</div></td>
-			<td width="300" height="150"><div align="center" style="color:#ffffff; font-weight:bold;font-size:60px;">201632110224</div></td>
+			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">student num</div></td>
+			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">201632110224</div></td>
 		<tr>
+		</marquee>
 </body>
 </html>
