@@ -1,7 +1,20 @@
 <html>
 <head>
 	<style>
-		.alsp{ font-family:"Courier New";font-size:50px}
+		a:link{
+			color:white;
+		}
+		a:hover{
+			color:white;
+			font-size:20px;
+		}
+		a:active{
+			color:white;
+			font-size:18px;
+		}
+		a:visited{
+			color:red;
+		}
 	</style>
 	<div style="color:#ffffff;font-size:30px">
 		<div id="time1">
@@ -14,19 +27,15 @@
 </head>
 <body>
 	<div class="alsp">				
-		<div align="center" style="color:white; font-weight:bold;">xuwentao's test web</div>
+		<div align="center" style="color:white; font-weight:bold;font-family:Courier New;font-size:50px;">xuwentao's test web</div>
 	</div>
 	<body style="background-image:url(img/blackrose.jpg);background-repeat:no-repeat;background-size:100%;background-attachment: fixed;">
 	<div style="color:white; font-weight:bond; font-size:30px;right:350px;position:absolute;bottom:450px;">more about my web</div>
-	<div style="right:400px;position:absolute;bottom:400px;">
-		<a href="past.html">		
-			<div style="color:white";>1.this my begging page</div>		
-		</a>
+	<div style="left:955px;position:absolute;bottom:400px;">
+		<a href="zjnuxwt.github.io/past.html">1.this my begging page</a><br>
 	</div>  
-	<div style="left:950px;position:absolute;bottom:350px;">
-		<a href="pastone.html">		
-			<div style="color:white";>2.this my nextpage(about Mercedes AMG)</div>		
-		</a>
+	<div style="left:955px;position:absolute;bottom:350px;">
+		<a href="zjnuxwt.github.io/pastone.html">2.this my nextpage(about Mercedes AMG)</a>
 	</div>  
 	<div style="color:white;font-size:20px;right:623px;position:absolute;bottom:50px;">thanks for watching,good night</div>                
 		
