@@ -5,11 +5,9 @@
 			color:white;
 		}
 		a:hover{
-			color:white;
 			font-size:20px;
 		}
 		a:active{
-			color:white;
 			font-size:18px;
 		}
 		a:visited{
@@ -35,21 +33,16 @@
 		<a href="zjnuxwt.github.io/past.html">1.this my begging page</a><br>
 	</div>  
 	<div style="left:955px;position:absolute;bottom:350px;">
-		<a href="zjnuxwt.github.io/pastone.html">2.this my nextpage(about Mercedes AMG)</a>
-	</div>  
+		<a href="zjnuxwt.github.io/pastone.html">2.this my second page(about Mercedes AMG)</a>
+	</div> 
+	<div style="left:955px;position:absolute;bottom:300px;">
+		<a href= "pasttwo.html">3.this my third page(about form-- my favorite movie series)</a>
+	</div>
 	<div style="color:white;font-size:20px;right:623px;position:absolute;bottom:50px;">thanks for watching,good night</div>                
 		
 		
 		<marquee direction="left" behavior="alternate">
-	<table border=5 bordercolor="white" cellpadding="2" cellspacing="2">
-		<tr>
-			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">name</div></td>
-			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">许文滔</div></td>
-		<tr>
-		<tr>
-			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">student num</div></td>
-			<td width="150" height="30"><div align="center" style="color:#ffffff; font-weight:bold;font-size:20px;">201632110224</div></td>
-		<tr>
+			<p style="color: white;font-size:30px;font-weight:bold;font-family:Courier New;">welcome to the content page</p>
 		</marquee>
 		
 
