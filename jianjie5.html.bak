@@ -1,0 +1,42 @@
+<p style="text-align:center;font-size:2cm;">HTML window sub-frame</p>      
+<p style="text-align:center;font-size:1cm;"><a href="http://study.163.com/course/courseMain.htm?courseId=245007">click here to view teaching video</a></p>
+<body>
+<div class="container clearfix">
+  <main>
+    <article>
+        <h1 class="csdn_top">HTML高级标签之窗口分帧(前台界面演示)</h1>
+
+           
+        </div>
+        <div id="article_content" class="article_content csdn-tracking-statistics" data-mod="popu_519" data-dsm="post">
+                        
+<p>&nbsp;窗口分帧就是一个浏览器显示多个窗口,&nbsp;&nbsp; 显示多个页面.</p>
+<p><br>
+</p>
+<p>窗口分帧<br>
+</p>
+<p>1.作用: 将浏览器分为多个窗口, 每个窗口显示不同的网页(URL)<br></p>
+<p>2.各属性作用: <br></p>
+<p>&lt;frame noresize=&quot;noresize&quot; scrolling=&quot;null&quot; src=&quot;http://www.baidu.com&quot;&gt; &lt;!--noresize=&quot;noresize&quot;: 窗口不可拉动, 固定帧的尺寸. scrolling=&quot;null&quot;:隐藏滚动条--&gt;</p>
+<p><br>
+</p>
+<p>3.代码示例</p>
+<p><pre name="code" class="html"> 	&lt;!-- 定义: 将浏览器分为多个窗口同时显示,每个帧(页面)都有自己独立的URL --&gt;
+ 	&lt;frameset rows=&quot;*,*,*&quot;&gt;
+ 		&lt;frameset cols=&quot;*,*&quot;&gt;
+ 			&lt;frame src=&quot;http://www.csdn.net&quot;&gt;
+ 			&lt;frame src=&quot;http://www.baidu.com&quot;&gt;
+ 		&lt;/frameset&gt;
+ 		
+ 		&lt;frameset rows=&quot;*,*,*&quot;&gt;
+ 			&lt;frame src=&quot;http://www.sina.com&quot;&gt;
+ 			&lt;frame src=&quot;http://www.hao123.com&quot;&gt;
+ 			&lt;frame noresize=&quot;noresize&quot; src=&quot;http://www.chinaunix.net&quot;&gt; &lt;!-- noresize=&quot;noresize&quot;: 窗口不可拉动,固定帧的尺寸 --&gt;
+ 		&lt;/frameset&gt;
+ 		&lt;frame scrolling=&quot;null&quot; src=&quot;main.html&quot;&gt; &lt;!-- scrolling=&quot;null&quot;:隐藏滚动条 --&gt;
+ 	&lt;/frameset&gt;
+</pre><br>
+4.运行结果<br>
+</p>
+<p><img src="http://img.blog.csdn.net/20150402113240396?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5pZzIwMTQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>
+</p>

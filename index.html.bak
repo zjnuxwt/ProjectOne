@@ -24,6 +24,9 @@
 	<title>wuwentao's webpage</title>
 </head>
 <body>
+	<div style="left:400px;position:absolute;bottom:300px;color:white;">
+	The web page <br><br>Developed by пМндло<br><br>It takes about 10 times changes made him into what it is now
+	</div>
 	<div class="alsp">				
 		<div align="center" style="color:white; font-weight:bold;font-family:Courier New;font-size:50px;">xuwentao's test web</div>
 	</div>
@@ -36,7 +39,10 @@
 		<a href="zjnuxwt.github.io/pastone.html">2.this my second page(about Mercedes AMG)</a>
 	</div> 
 	<div style="left:955px;position:absolute;bottom:300px;">
-		<a href= "pasttwo.html">3.this my third page(about form-- my favorite movie series)</a>
+		<a href= "zjnuxwt.github.io/pasttwo.html">3.this my third page(about form-- my favorite movie series)</a>
+	</div>
+	<div style="left:955px;position:absolute;bottom:250px;">
+		<a href= "zjnuxwt.github.io/pastthree.html">4.teach youself about html</a>
 	</div>
 	<div style="color:white;font-size:20px;right:623px;position:absolute;bottom:50px;">thanks for watching,good night</div>                
 		
