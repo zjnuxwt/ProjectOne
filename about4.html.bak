@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+
+	
+	<title>teach you to learn html</title>
+	<link rel=stylesheet href="css/main.css">
+	<link rel=stylesheet href="css/owl.carousel.css">
+	<link rel=stylesheet href="css/about.css">
+<body class="page-careers">
+
+<div class="header">
+	<div class="container rel text-left">	
+			<ul>
+				<li><a href="index.html">Home</a>
+			</ul>
+		</nav>
+	</div>
+</div>	
+
+
+<div class="level level-hero hero-home has-hint">
+		<div class="container full-height">
+			<div class=v-align-parent>
+				<div class=v-center>
+					<div class="row">
+						<div class="col-xs-10 col-sm-6">
+							<h1 class="mb-10 heading">HTML window sub-frame</span></h1><br><br>
+						</div>
+					</div>
+					<div>
+						<a class="btn btn-prepend btn-launch-video" href="http://study.163.com/course/courseLearn.htm?courseId=245007#/learn/video?lessonId=354071&courseId=245007">
+							<i class="prepended icon-append-play"></i>Watch Video
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class=hint-arrow></div>
+		</div>
+	</div>
+
+<div class="level no-border">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+				<h1 class="mb-25 sm-mb-20 heading scaled color-dark heading-bordered bordered-above">so what is HTML window sub-frame</h1><br><br><br>
+			</div>
+		</div>
+
+		<div class="row mb-60 xs-mb-20">
+			<div >
+				<div class="has-icon">
+					<i class="icon icon-laptop"></i>	
+					<h3 class="mb-25 md-mb-10">HTML window sub-frame</h3>
+												<article>
+        
+
+           
+      
+                        
+<p>&nbsp;Window sub-frame is a browser to display multiple windows, display multiple pages.</p>
+<p><br>
+</p>
+<p>Window sub-frame<br>
+</p>
+<p>1.Role: The browser is divided into multiple windows, each window displays a different page (URL)<br></p>
+<p>2.The role of various attributes: <br></p>
+<p>&lt;frame noresize=&quot;noresize&quot; scrolling=&quot;null&quot; src=&quot;http://www.baidu.com&quot;&gt; &lt;!--noresize=&quot;noresize&quot;: Window can not be pulled, fixed frame size. scrolling=&quot;null&quot;:Hide the scroll bar--&gt;</p>
+<p><br>
+</p>
+<p>3.Code example</p>
+<p><pre name="code" class="html"> 	&lt;!-- Definition: The browser is divided into multiple windows at the same time, each frame (page) has its own independent URL --&gt;
+ 	&lt;frameset rows=&quot;*,*,*&quot;&gt;
+ 		&lt;frameset cols=&quot;*,*&quot;&gt;
+ 			&lt;frame src=&quot;http://www.csdn.net&quot;&gt;
+ 			&lt;frame src=&quot;http://www.baidu.com&quot;&gt;
+ 		&lt;/frameset&gt;
+ 		
+ 		&lt;frameset rows=&quot;*,*,*&quot;&gt;
+ 			&lt;frame src=&quot;http://www.sina.com&quot;&gt;
+ 			&lt;frame src=&quot;http://www.hao123.com&quot;&gt;
+ 			&lt;frame noresize=&quot;noresize&quot; src=&quot;http://www.chinaunix.net&quot;&gt; &lt;!-- noresize=&quot;noresize&quot;:  Window can not be pulled, fixed frame size --&gt;
+ 		&lt;/frameset&gt;
+ 		&lt;frame scrolling=&quot;null&quot; src=&quot;main.html&quot;&gt; &lt;!-- scrolling=&quot;null&quot;:frameset rows --&gt;
+ 	&lt;/frameset&gt;
+</pre><br>
+4.运行结果<br>
+</p>
+<p><img src="http://img.blog.csdn.net/20150402113240396?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5pZzIwMTQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>
+</p>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+
+<div class="footer text-center">
+	<p>
+		<a href="index.html">Back to beginning</a>
+	</p>
+
+</div>		
+</body>
+</html>

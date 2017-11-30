@@ -24,7 +24,7 @@
 	<title>wuwentao's webpage</title>
 </head>
 <body>
-	<div style="left:400px;position:absolute;bottom:300px;color:white;">
+	<div style="left:300px;position:absolute;bottom:300px;color:white;">
 	The web page <br><br>Developed by пМндло<br><br>It takes about 10 times changes made him into what it is now
 	</div>
 	<div class="alsp">				
@@ -43,6 +43,9 @@
 	</div>
 	<div style="left:955px;position:absolute;bottom:250px;">
 		<a href= "zjnuxwt.github.io/pastthree.html">4.teach youself about html</a>
+	</div>
+	<div style="left:955px;position:absolute;bottom:200px;">
+			<a href= "index1.html">5.teach youself about html(I use a template, so it's beauty)</a>
 	</div>
 	<div style="color:white;font-size:20px;right:623px;position:absolute;bottom:50px;">thanks for watching,good night</div>                
 		

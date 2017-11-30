@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+
+	
+	<title>teach you to learn html</title>
+	<link rel=stylesheet href="css/main.css">
+	<link rel=stylesheet href="css/owl.carousel.css">
+	<link rel=stylesheet href="css/about.css">
+<body class="page-careers">
+
+<div class="header">
+	<div class="container rel text-left">	
+			<ul>
+				<li><a href="index.html">Home</a>
+			</ul>
+		</nav>
+	</div>
+</div>	
+
+
+<div class="level level-hero hero-home has-hint">
+		<div class="container full-height">
+			<div class=v-align-parent>
+				<div class=v-center>
+					<div class="row">
+						<div class="col-xs-10 col-sm-6">
+							<h1 class="mb-10 heading">JS</span></h1><br><br>
+						</div>
+					</div>
+					<div>
+						<a class="btn btn-prepend btn-launch-video" href="http://study.163.com/course/courseMain.htm?courseId=224014">
+							<i class="prepended icon-append-play"></i>Watch Video
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class=hint-arrow></div>
+		</div>
+	</div>
+
+<div class="level no-border">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+				<h1 class="mb-25 sm-mb-20 heading scaled color-dark heading-bordered bordered-above">so what is JS</h1><br><br><br>
+			</div>
+		</div>
+
+		<div class="row mb-60 xs-mb-20">
+			<div >
+				<div class="has-icon">
+					<i class="icon icon-laptop"></i>	
+					<h3 class="mb-25 md-mb-10">JS</h3>
+<p>JavaScript A literal scripting language that is a dynamic, weak, prototype-based language with built-in support types. Its interpreter, known as the JavaScript engine, is a part of the browser that is widely used in client-side scripting languages and was first used on HTML (an application of the standard universal markup language) web page to add dynamic functionality to HTML pages .<br>
+In 1995, Netscape's Brendan Eich was first designed and implemented on Netscape Navigator. Because Netscape and Sun co-operate, Netscape management hopes it looks like Java and hence its name JavaScript. But in fact its grammatical style and Self and Scheme are more similar.<br>
+In order to gain technical advantages, Microsoft introduced JScript, CEnvi introduced ScriptEase, and JavaScript can run in the browser. In order to unify the specification, because JavaScript is compatible with the ECMA standard, it is also called ECMAScript.</p>
+
+<div class="footer text-center">
+	<p>
+		<a href="index.html">Back to beginning</a>
+	</p>
+
+</div>		
+</body>
+</html>
